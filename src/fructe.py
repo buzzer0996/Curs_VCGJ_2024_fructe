@@ -37,7 +37,7 @@ def login():
         username = form.username.data
         password = form.password.data
         
-        if username == 'buzzer0996' and password == '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':
+        if username == 'buzzer0996' and password == '****************************************':
             return redirect(url_for('get_fructe'))
         else:
             flash('Invalid username or password')
